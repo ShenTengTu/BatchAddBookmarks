@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=zh-Hant">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="/css/popup.css">
+        <script src="/js/libs/require.js/require.min.js"></script>
+        <script src="/js/config.js"></script>
+    </head>
+    <body>
+        <div class="w3-container"id="wrapper">
+            <h3 class="w3-center" id="title"><img src="img/icon48.png" style="margin:0 7px -14px 0px;" alt=logo"/></h3>
+            <hr>
+            <div class="w3-row">
+                <div class="w3-col m6 l6">
+                    <div id="bookmarks"></div>
+                </div>
+                <div class="w3-col m6 l6">
+                    <div>
+                        <h5></h5>
+                        <select class="w3-select w3-border-indigo" id="options">
+                            <option value="folder"></option>
+                            <option value="page"></option>
+                        </select>
+                        <h5><span class="w3-tag w3-indigo" id="show_folder"></span></h5>
+                        <h5></h5>
+                        <textarea class="w3-input w3-border" id="content" rows="8" wrap="off" required></textarea>
+                        <br>
+                        <div class="w3-container">
+                            <div class="w3-row">
+                                <div class="w3-col s3">
+                                    <button class="w3-btn w3-indigo w3-text-shadow" id="run" disabled></button>
+                                </div>
+                                <div class="w3-col s9">
+                                    <progress id="progressBar" value="0"></progress>
+                                </div>
+                            </div>       
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <hr>
+        </div>
+        <script src="js/popup.js"></script>
+    </body>
+</html>

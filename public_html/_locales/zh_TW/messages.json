@@ -1,0 +1,41 @@
+{
+  "appName": {
+    "message": "批次新增書籤"
+  },
+  "appDescription": {
+    "message": "在你的書籤管理員中批次新增資料夾或網頁。開啟書籤管理員啟用此擴充功能。"
+  },
+  "htmlLang": {
+      "message": "zh-Hant"
+  },
+  "options": {
+      "message": "選項"
+  },
+  "selectLabel": {
+      "message": "將"
+  },
+  "folders": {
+      "message": "資料夾"
+  },
+  "folderName": {
+      "message": "資料夾名稱"
+  },
+  "pages": {
+      "message": "網頁"
+  },
+  "pageURL": {
+      "message": "網頁網址"
+  },
+  "batchAddTo": {
+      "message": "批次新增至 "
+  },
+  "textAreaLabel": {
+      "message": "一行輸入一個"
+  },
+  "execute": {
+      "message": "執行"
+  },
+  "needSelectFolder":{
+      "message": "請選擇一個資料夾"
+  }
+}

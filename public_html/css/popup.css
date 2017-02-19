@@ -1,0 +1,43 @@
+#wrapper{
+    width:700px;
+}
+.w3-col{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.w3-col > div{
+    width: 320px;
+    height: 430px;
+}
+#bookmarks{
+    line-height: 16px;
+    border: 2px solid gray;
+    white-space: nowrap;
+    overflow: scroll;
+}
+textarea {
+    resize: none;
+}
+
+progress{
+    margin-top: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 18px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress::-webkit-progress-value {
+    background:
+        -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, .25)),
+        -webkit-linear-gradient(left, #77b300, #99e600);
+    border-radius: 2px; 
+}
+

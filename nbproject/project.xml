@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.web.clientproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/clientside-project/1">
+            <name>BatchAddBookmarks</name>
+        </data>
+        <libraries xmlns="http://www.netbeans.org/ns/cdnjs-libraries/1">
+            <library name="jquery" version="3.1.1">
+                <file localPath="public_html/js/libs/jquery/jquery.min.js" path="jquery.min.js"/>
+            </library>
+            <library name="require-css" version="0.1.8">
+                <file localPath="public_html/js/libs/require-css/css.min.js" path="css.min.js"/>
+            </library>
+            <library name="require.js" version="2.3.2">
+                <file localPath="public_html/js/libs/require.js/require.min.js" path="require.min.js"/>
+            </library>
+        </libraries>
+    </configuration>
+</project>

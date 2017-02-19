@@ -1,0 +1,41 @@
+{
+  "appName": {
+    "message": "Batch Add Bookmarks"
+  },
+  "appDescription": {
+    "message": "Batch Add folders or pages in your bookmark manager.Open the bookmark manager to enable this extension."
+  },
+  "htmlLang": {
+      "message": "en"
+  },
+  "options": {
+      "message": "Options"
+  },
+  "selectLabel": {
+      "message": "Let"
+  },
+  "folders": {
+      "message": "Folders"
+  },
+  "folderName": {
+      "message": "Folder name"
+  },
+  "pages": {
+      "message": "Pages"
+  },
+  "pageURL": {
+      "message": "Page URL"
+  },
+  "batchAddTo": {
+      "message": "Batch add to "
+  },
+  "textAreaLabel": {
+      "message": "Enter one for each line"
+  },
+  "execute": {
+      "message": "execute"
+  },
+    "needSelectFolder":{
+      "message": "Please select a folder"
+  }
+}
